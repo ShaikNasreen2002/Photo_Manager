@@ -107,7 +107,7 @@ class _HomePageState extends State<HomePage>{
      builder: (context){
       return const Dialog(child: Padding(
         padding: EdgeInsets.all(8.0),
-        child: Text(textAlign: TextAlign.center,"Item are deleted permanently"),
+        child: Text(textAlign: TextAlign.center,"Items are deleted permanently"),
       ),
       );
      });
